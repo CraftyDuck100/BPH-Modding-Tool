@@ -1,2 +1,3 @@
-.env
 __pycache__/BPHModdingTool.cpython-310.pyc
+.env
+output.txt
