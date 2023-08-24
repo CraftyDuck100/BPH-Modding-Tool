@@ -1,0 +1,43 @@
+{
+    "name": {
+        "English": "Item Name"
+    },
+    "type": [
+        "Weapon"
+    ],
+    "group": [
+        "Melee"
+    ],
+    "rarity": "Common",
+    "shape": [
+        "X"
+    ],
+    "sprite": [
+        ".png"
+    ],
+    "sprite_change_mode": "Auto",
+    "flavor": {
+        "English": "Flavor text"
+    },
+    "animation": "Attack",
+    "use_costs": {"energy":1},
+    "use_limits": {},
+    "combat_effects": [
+        
+    ],
+    "modifiers": [
+        
+    ],
+    "add_modifiers": [
+        
+    ],
+    "movement_effects": [
+        
+    ],
+    "create_effects": [
+        
+    ],
+    "item_status_effects": [
+        
+    ]
+}
