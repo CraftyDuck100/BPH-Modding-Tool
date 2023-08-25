@@ -438,7 +438,7 @@ class MainWindow(QMainWindow):
             line_width = font.getlength(line)
             draw.text(((cardimage.width - line_width) // 2, y), line, "white", font=font)
             y += int(30 * line_spacing)
-        cardimage.save(f"/Temp/card.png")
+        cardimage.save(f"Temp/card.png")
         for key, value in data.items():
             moddict = {}
             if key == 'modifiers':
@@ -447,7 +447,7 @@ class MainWindow(QMainWindow):
                 for tem in value:
                     if str(tem["trigger"]).lower() == "constant": print("e")
             print(key, value, type(value))
-        cardmap = QPixmap("/Temp/card.png")
+        cardmap = QPixmap("Temp/card.png")
         print(cardmap)
         self.card.setPixmap(cardmap)
         self.cardcontent.setFixedSize(self.splitter.sizes()[1] - 24, cardmap.height())
